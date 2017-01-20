@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0627001E2715B3002ECACC /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0626FF1E2715B3002ECACC /* ToDoModel.swift */; };
+		CD0627021E271801002ECACC /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0627011E271801002ECACC /* ToDoTableViewController.swift */; };
 		CD7915341E27147E00B2488C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7915331E27147E00B2488C /* AppDelegate.swift */; };
 		CD7915361E27147E00B2488C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7915351E27147E00B2488C /* ViewController.swift */; };
 		CD7915391E27147E00B2488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7915371E27147E00B2488C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0626FF1E2715B3002ECACC /* ToDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		CD0627011E271801002ECACC /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		CD7915301E27147E00B2488C /* SimpleToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7915331E27147E00B2488C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7915351E27147E00B2488C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				CD7915331E27147E00B2488C /* AppDelegate.swift */,
 				CD7915351E27147E00B2488C /* ViewController.swift */,
 				CD7915371E27147E00B2488C /* Main.storyboard */,
+				CD0626FF1E2715B3002ECACC /* ToDoModel.swift */,
+				CD0627011E271801002ECACC /* ToDoTableViewController.swift */,
 				CD79153A1E27147E00B2488C /* Assets.xcassets */,
 				CD79153C1E27147E00B2488C /* LaunchScreen.storyboard */,
 				CD79153F1E27147E00B2488C /* Info.plist */,
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7915361E27147E00B2488C /* ViewController.swift in Sources */,
+				CD0627021E271801002ECACC /* ToDoTableViewController.swift in Sources */,
 				CD7915341E27147E00B2488C /* AppDelegate.swift in Sources */,
+				CD0627001E2715B3002ECACC /* ToDoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				CD7915441E27147E00B2488C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
